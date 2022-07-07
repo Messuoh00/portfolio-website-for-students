@@ -9,7 +9,7 @@ router.get('/', (req,res)=>{
 
 
 
-app.get('/download', function(req, res){  
+router.get('/download', function(req, res){  
      res.download('/cv.pdf');
   });
 
