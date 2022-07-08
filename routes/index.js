@@ -10,8 +10,7 @@ router.get('/', (req,res)=>{
 
 
 router.get('/download', function(req, res){  
-    
-     res.render('public/CV.pdf');
+     res.download('public/CV.pdf');
   })
 
 
