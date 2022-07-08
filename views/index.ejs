@@ -374,10 +374,11 @@
                             </div>
                         </div> -->
                     </div>
+
                     <div class="right-contact">
-                        <form action="" class="contact-form">
+                        <form method="POST"  action="/" class="contact-form">
                             <div class="input-control i-c-2">
-                                <input  name="name" type="text" required placeholder="YOUR NAME">
+                                <input  name="name" type="text" value="" required placeholder="YOUR NAME">
                                 <input name="mail" type="email" required placeholder="YOUR EMAIL">
                             </div>
                             <div class="input-control">
@@ -386,16 +387,16 @@
                             <div class="input-control">
                                 <textarea name="textarea" id="" cols="15" rows="8" placeholder="Message Here..."></textarea>
                             </div>
-                          
+                            <span  style="float:right;color:#27AE60;"> <%=locals.succes %> </span>
                             <div type class="submit-btn" style="width:236.2px;margin:auto;">    
                                 <button type="submit" style="background-color:transparent;cursor: pointer;" class="main-btn">   
                                     <span class="btn-text" >Send</span>
                                     <span class="btn-icon"><i class="fas fa-check"></i></span>  
                                 </button>
                             </div>
-                       
-                           
+                        
                         </form>
+
                     </div>
                 </div>
             </div>

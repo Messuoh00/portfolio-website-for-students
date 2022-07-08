@@ -11,6 +11,7 @@ const expresslayouts=require('express-ejs-layouts')
 
 const indexroute=require('./routes/index')
 
+const bodyparser = require('body-parser')
 // const mongoose = require('mongoose')
 
 // mongoose.connect(process.env.DATABASE_URL,{usenewURLparser: true})
@@ -25,6 +26,9 @@ app.set('views',__dirname+'/views')
 app.set('layout','layouts/layout')
 app.use(expresslayouts)
 app.use(express.static('public'))
+
+
+app.use(bodyparser.urlencoded({limit:'20mb',extended: false}))
 
 app.use('/',indexroute)
 
