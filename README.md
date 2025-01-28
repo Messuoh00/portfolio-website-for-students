@@ -4,7 +4,7 @@
 The Portfolio Website for Students is a clean, modern, and responsive website template designed to help students showcase their skills, projects, and achievements. Whether you're a computer science student, designer, or aspiring professional, this portfolio template provides an easy-to-use platform to present your work and make a strong impression.
 
 
-##Features
+## Features
 Responsive Design: Works seamlessly on desktops, tablets, and mobile devices.
 
 Easy to Customize: Simple HTML, CSS, and JavaScript structure for quick modifications.
@@ -23,7 +23,7 @@ Contact: A form for visitors to get in touch with you.
 
 Lightweight and Fast: Optimized for performance and quick loading times.
 
-##Purpose
+## Purpose
 This project is designed to:
 
 Provide students with a professional and modern portfolio template.
